@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Info Box</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      padding: 20px;
+    }
+
+    .info-box {
+      border: 1px solid #ccc;
+      background: white;
+      border-radius: 6px;
+      padding: 15px 20px;
+      width: 320px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .info-box h3 {
+      margin: 0 0 15px;
+      font-size: 1.1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .info-box h3 a {
+      font-size: 0.9rem;
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    .info-item {
+      margin-bottom: 8px;
+      display: flex;
+    }
+
+    .info-label {
+      font-weight: bold;
+      width: 100px;
+      color: #333;
+    }
+
+    .info-value {
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="info-box">
+    <h3>
+      Primary Curriculum
+      <a>View Details</a>
+    </h3>
+    <div class="info-item">
+      <div class="info-label">Level :</div>
+      <div class="info-value">Undergraduate</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">College :</div>
+      <div class="info-value">IT and Engineering</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Degree :</div>
+      <div class="info-value">Bachelor of Science</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Program :</div>
+      <div class="info-value">BS in Computer Science</div>
+    </div>
+  </div>
+
+</body>
+</html>
